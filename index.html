@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Troll</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question" class="hidden">
+            <p><strong>Primeiro vamos nos conhecer, depois vamos marcar para sair. "Eu curto pagodinho, cineminha, rolê de casalzinho", depois vamos nos apaixonar um pelo outro e começar a namorar, mudar a bio e ser feliz, esse e um programa simples porem posso programar nossa vida toda
+                ! VOCÊ ACEITA?</strong></p>
+            <button id="noBtn" onclick="handleNoClick()">Não</button>
+            <button id="yesBtn" onclick="handleYesClick()">Sim</button>
+        </div>
+        <div id="message" class="hidden"></div>
+        <div id="hearts" class="hidden"></div>
+        <iframe id="video" class="hidden" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="gifContainer" class="hidden">
+            <img src="https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif" alt="Celebration GIF" id="celebrationGif">
+        </div>
+        <div id="acceptance" class="hidden">
+            <p><strong>Vamos ser felizes!</strong></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
